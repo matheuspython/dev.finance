@@ -96,7 +96,32 @@
 
     <div class="modal-overlay active">
         <div class="modal">
-            oi
+            <div id="form">
+                <h2>Nova Transação</h2>
+                <form action="">
+                    <div class="input-group">
+                        <label class="sr-only" for="description">descrição</label>
+                        <input type="text" id="description" name="description" placeholder="descrição">
+                    </div>
+
+                    <div class="input-group">
+                        <label class="sr-only" for="amount">Valor</label>
+                        <input type="number" step="0.01" id="amount" name="amount" placeholder="0,00">
+                    </div>
+
+                    <small class="help">Use o sinal - (negativo) para despesas e , (vírgula) para casas decimais</small>
+
+                    <div class="input-group">
+                        <label class="sr-only" for="date">Data</label>
+                        <input type="date" id="date" name="date" placeholder="01/01/2021">
+                    </div>
+
+                    <div class="input-group actions">
+                        <a href="#" class="button cancel">Cancelar</a>
+                        <button>Salvar</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
