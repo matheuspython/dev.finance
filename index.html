@@ -58,12 +58,16 @@
 
         <section id="transaction">
             <h2 class="sr-only">Transações</h2>
+
+            <a href="#" class="button new">+ Nova Transação</a>
+
             <table id="data-table">
                 <thead>
                     <tr>
                         <th>Descrição</th>
                         <th>Valor</th>
                         <th>Data</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -71,21 +75,30 @@
                         <td class="description">Luz</td>
                         <td class="expense"> R$ 500,00</td>
                         <td class="date">23/01/2021</td>
+                        <th><img src="./assets/minus.svg" alt="Remover transação"></th>
                     </tr>
                     <tr>
                         <td class="description">Criação de website</td>
                         <td class="income"> R$ 500,00</td>
                         <td class="date">23/01/2021</td>
+                        <th><img src="./assets/minus.svg" alt="Remover transação"></th>
                     </tr>
                     <tr>
                         <td class="description">Internet</td>
                         <td class="expense"> R$ 500,00</td>
                         <td class="date">23/01/2021</td>
+                        <th><img src="./assets/minus.svg" alt="Remover transação"></th>
                     </tr>
                 </tbody>
             </table>
         </section>
     </main>
+
+    <div class="modal-overlay active">
+        <div class="modal">
+            oi
+        </div>
+    </div>
 
     <footer>
         <p>dev.finance$</p>
